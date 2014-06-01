@@ -1,0 +1,300 @@
+/******************************
+Flexbox Layout
+*******************************/
+
+.greathead, .navfig {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.greathead {
+  justify-content: space-between;
+}
+
+.navfig {
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+@media all and (min-width: 640px) {
+  .greathead, .nav {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media all and (min-width: 840px) {
+  .navfig {
+    -webkit-flex: none;
+    flex: none;
+  }
+}
+
+
+/******************************
+Treehouse Styling
+*******************************/
+
+body {
+  background: url('file:///Volumes/FLASH%20DRIVE/Web%20Design/Action/Web%20SIte%20Project/Enter%20Title%20/Media/Images/WineRow.jpg') top center no-repeat; /* REPLACE LINK */
+  background-size: cover;
+}
+
+.logo {
+  background-size: contain;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+/******************************
+Flexbox Layout
+*******************************/
+
+.greathead, .navfig {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.greathead {
+  justify-content: space-between;
+}
+
+.navfig {
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+@media all and (min-width: 640px) {
+  .greathead, .navfig {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media all and (min-width: 840px) {
+  .navfig {
+    -webkit-flex: none;
+    flex: none;
+  }
+}
+
+
+/******************************
+Treehouse Styling
+*******************************/
+
+@media all and (min-width: 1030px) {
+  .greathead {
+    width: 82.4%;
+    min-width: 840px;
+  }
+}
+
+@media all and (min-width: 1030px) {
+  .greathead {
+    width: 82.4px;
+    min-width: 840px;
+  }
+}
+
+
+/****************************** BigStyles Styling *******************************/
+
+body {
+	margin: 0;
+} 
+
+/****************************** TypeFace Styling *******************************/
+
+body {
+	font-family: Helvetica;		
+}
+
+.bigTit {
+	color: white;
+	font-weight: 100;
+	font-size: 56px;
+	letter-spacing: 2px;
+	margin-top: 134px;
+	margin-bottom: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.descrip {
+	color: white;
+	letter-spacing: 1px;
+	font-weight: 100;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.descrip a { 
+	color: white;
+	display: block;
+	width: 119px;
+	margin: auto;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	border-bottom-width: thin;
+	padding-bottom: 5px;
+	border-bottom: 2px solid white; 
+}
+
+/*_______ Navigation Text ______*/
+li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline;
+  letter-spacing: 1px;
+  text-shadow: 1px 0px 2px rgba(0,0,0,0.86);
+}
+
+.navfig li a:hover {
+  color: rgba(229,228,228,1);
+}
+
+.navfig li a:visited {
+  color: rgba(255,255,255,0.43);
+  border-bottom: 1px solid rgba(255,255,255,0.43);
+  padding-bottom: 2px; 
+}
+
+
+/****************************** topcontainer Styling *******************************/
+.topcontainer {
+	width: 82.4%;
+	min-width: 840px;
+	margin: auto;
+}
+
+/*_____ Header _____*/
+
+.greathead {
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+.logo {
+  background: transparent url('file:///Volumes/FLASH%20DRIVE/Web%20Design/Action/Web%20SIte%20Project/Enter%20Title%20/Media/Images/Logo.png') center center no-repeat;
+  width: 182px;
+  overflow: hidden;
+  display: inline-block;
+  height: 82px;
+}
+
+/*___ Navigation ___*/
+
+.navfig {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+
+.navfig li {
+  margin: 12px 0 12px 28px;
+  display: inline;
+}
+
+.navfig li:first-child {
+  margin: 12px 0 12px;
+}
+
+.navfig li:last-child a {
+  background: rgba(0,0,0,0.3);
+  border-radius: 2px;
+  transition: 500ms ease-in-out;
+  padding: 8px 16px 7px;
+}
+.navfig li:last-child a:hover {
+  background: rgba(0,0,0,0.5);
+  color: #666;
+}
+
+.titlebreak {
+	margin-top: 50px;
+	height: 7px;
+	background: white; 
+}
+
+.titlehead {
+	display: block;
+	
+}
+
+.bigTit {
+	display: block;
+}
+
+.descrip {
+	
+}
+
+.descrip a {
+	
+}
+
+/*_____ EndHeader _____*/
+
+/*_____ Main Content _____*/
+
+.content {
+	background: white;
+	margin: 0;
+	z-index: 1;
+	width:100%;
+}
+
+.blockfood {
+	margin: auto;
+	width: 82.4%;
+	min-width: 840px;
+	background: green;
+}
+
+h3 a, {
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+}
+
+h3 a, #meal1, #meal2, #meal3 {
+	margin-left: 
+}
+
+#meal1 {
+	
+}
+
+#meal2 {
+	
+}
+
+#meal2 {
+	
+}
+
+
+/*_____ END Main Content _____*/
+
+
+/*_____ Footer _____*/
+footer {
+	
+}
+
+footsies {
+	
+}

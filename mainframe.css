@@ -1,0 +1,616 @@
+/****************************** Pre-Loaded Futura *******************************/
+
+@font-face {
+    font-family: 'Futura-Light';
+    src: url('Fonts/FuturaLT-Light.eot');
+    src: url('Fonts/FuturaLT-Light.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/FuturaLT-Light.woff') format('woff'),
+         url('Fonts/FuturaLT-Light.ttf') format('truetype'),
+         url('Fonts/FuturaLT-Light.svg#FuturaLT-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura-Book';
+    src: url('Fonts/FuturaLT-Book.eot');
+    src: url('Fonts/FuturaLT-Book.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/FuturaLT-Book.woff') format('woff'),
+         url('Fonts/FuturaLT-Book.ttf') format('truetype'),
+         url('Fonts/FuturaLT-Book.svg#FuturaLT-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura-Book-Oblique';
+    src: url('Fonts/FuturaLT-BookOblique.eot');
+    src: url('Fonts/FuturaLT-BookOblique.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/FuturaLT-BookOblique.woff') format('woff'),
+         url('Fonts/FuturaLT-BookOblique.ttf') format('truetype'),
+         url('Fonts/FuturaLT-BookOblique.svg#FuturaLT-BookOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/****************************** Whole Page Setup *******************************/
+
+
+
+html {
+	box-sizing: border-box;
+	-webkit box sizing: border box;
+	-moz-box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	/*** V CROP Height Over IMG V ***/
+	height: 675px;
+	position: absolute;
+	background-color: #fcfcfc;
+	margin: 0px auto;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	display: block;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	font-size: 100%;
+}
+
+.homecontent {
+	width: 100%;
+	max-width: 840px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+.homecontent:before, .homecontent:after {
+	content: "";
+	display: table;
+}
+
+.homecontent .twelve.columns {
+	width: 100%;
+}
+
+
+
+
+
+#logo img {
+	position: relative;
+	margin: 5.25% auto 0px auto;
+	z-index: 999;
+	display: inline;
+	margin: auto;
+	text-align: center;
+}
+
+.column:first-child, .column:first-child, .alpha {
+	margin-left: 0px;
+}
+
+.column, .columns {
+	margin-left: 2%;
+	float: left;
+	min-height: 1px;
+	position: relative;
+	box-sizing: border-box;
+	-webkit box sizing: border box;
+	-moz-box-sizing: border-box;
+}
+
+
+
+img, object, embed {
+	max-width: 100%;
+	margin: auto;
+}
+
+
+
+
+
+/******** Header Background ********/
+.home {
+	height: 100%;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/******** Navigation Grid ********/
+.row {
+	width: 100%;
+	max-width: 840px;
+	min-width: 320px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row .twelve.columns {
+	width: 100%;
+	margin: 0;
+}
+
+/******** Navigation Containers ********/
+.navwrap {
+	width: 100%;
+	height: 144px;
+}
+
+nav {
+	z-index: 42;
+	width: 100%;
+	position: relative;
+	background: transparent;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 40px;
+	/* Fallback for web browsers that doesn't support RGBa
+    background: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity
+    background: rgba(255, 255, 255, 0.1);
+    /* For IE 5.5 - 7
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";*/
+}
+
+/******** Navigation Lists  ********/
+nav ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.selected ul li a {
+
+}
+
+
+	/*** LOGO Specific ***/
+	nav #logo {
+		color: #000;
+		display: inline;
+		border-bottom: none;
+	}
+
+	nav #logo a {
+		color: #000;
+		display: inline;
+		border-bottom: none;
+	}
+
+	#logo a:visited {
+		display: inline;
+		text-shadow: none;
+	}
+
+	#logo a:link {
+		display: inline;
+		text-shadow: none;
+	}
+		
+	.fade-it {
+		-webkit-animation: Anim ease-in 3;
+		-moz-animation: Anim ease-in 3;
+		animation: Anim ease-in 3;
+		opacity: 0.9;
+		filter: alpha(opacity:90);
+		-webkit-animation-fill-mode: forwards;
+		-moz-animation-fill-mode: forwards;
+		animation fill mode: forwards;
+		-webkit-animation-duration: 3s;
+		-moz-animation-duration: 3s;
+	}
+
+
+/******** Navigation Typography ********/
+.row {
+	text-align: center;
+}
+
+/******** Nav Link Typography ********/
+
+#selected {
+	color: #fff;
+	text-shadow: 0px 0px 2px #a1a1a1;
+	border-bottom: 1px solid #fafafa;
+	padding-bottom: 2px;
+}
+
+
+
+nav li a{
+	margin: 0 27px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	text-shadow: 0px 0px 3px #7F7F7F;
+}
+
+.home li a:link {
+	color: #fcfcfc;
+	text-shadow: 0px 0px 2px #a1a1a1;
+}
+
+.home li a:visited {
+	color: #fcfcfc;
+	text-shadow: 0px 0px 2px #a1a1a1;
+}
+
+.home li a:hover {
+	color: #fff;
+	text-shadow: 0px 0px 2px #a1a1a1;
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 2px;
+}
+
+.home li a:active {
+	color: #E4E4E4;
+	text-shadow: 0px 0px 2px #a1a1a1;
+	border-bottom: 1px solid #FCFCFC;
+	padding-bottom: 2px;
+}
+
+
+/******** Header LineBreak ********/
+.linebreaking {
+	width: 100%;
+	height: 8px;
+	background: #fcfcfc;
+	border: 0;
+	box-shadow: inset 0 3px 3px -3px rgba(0,0,0,0.26);
+}
+
+/******** Header Paragraph Container ********/
+.detailset {
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	z-index: 999;
+	margin: auto;
+	padding-bottom: 48px;
+}
+
+.greatinfo {
+	vertical-align: middle;
+	min-width: 380px;
+	width: 60%;
+	overflow: hidden;
+	z-index: 999;
+	margin: auto;
+}
+
+.titleset {
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	z-index: 999;
+	margin: 115px 0 0 0;
+}
+
+.titleset a {
+	width: 220px;
+	overflow: hidden;
+	z-index: 999;
+	margin: auto;
+	padding: 24px 0 3px 0;
+	border-bottom: 1px solid #FCFCFC;
+	padding-bottom: 2px;
+}
+
+/******** Header Paragraph Typography ********/
+.detailset {
+	text-transform: uppercase;
+	color: #e4e4e4;
+	text-shadow: 0px 1px 2px rgba(127, 127, 127, 1);
+	font-size: 54px;
+	font-weight: 100;
+	letter-spacing: 6px;
+}
+
+.greatinfo {
+	text-transform: none;
+	font-family: "Futura-Light", sans-serif;
+	color: #e4e4e4;
+	text-shadow: 0px 1px 2px rgba(127, 127, 127, 1);
+	line-height: 130%;
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.titleset {
+	text-transform: uppercase;
+	color: #FCFCFC;
+	font-size: 42px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-shadow: 0px 1px 2px rgba(127, 127, 127, 1);
+}
+
+
+
+
+	.titleset a {
+		text-transform: uppercase;
+		font-weight: 500;
+		color: #FCFCFC;
+		font-size: 15px;
+		letter-spacing: 2px;
+		text-shadow: 0px 1px 2px rgba(127, 127, 127, 1);
+	}
+	.titleset a:visited {
+		color: #fff;
+		text-shadow: 0px 0px 2px #a1a1a1;
+	}
+
+	.titleset a:hover, a.selected {
+		color: #fff;
+		text-shadow: 0px 0px 2px #a1a1a1;
+		border-bottom: 1px solid #DDD;
+		padding-bottom: 2px;
+	}
+
+	.titleset a:active {
+		color: #fff;
+		text-shadow: 0px 0px 2px #a1a1a1;
+		border-bottom: 1px solid #FCFCFC;
+		padding-bottom: 2px;
+	}
+
+	
+	
+/****************************** Page Typography Setup *******************************/
+
+body {
+	font-family: "Futura-Light", sans-serif;
+	font-weight: 100;
+	color: #2a3411;
+	background: #fff;
+}
+
+.home {
+	color: #E4E4E4;
+}
+
+.subtittle {
+	font-family: "Futura-Light", sans-serif;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	color:#FCFCFC;
+	margin-bottom:0px;
+	padding:30px 30px 30px 30px;
+	font-size:22px;}
+
+.subtittle a {
+	font-family: "Futura-Light", sans-serif;
+	color:#FCFCFC;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+ }
+
+.subtittle a:hover {
+	color:#777;
+}
+
+h2 {
+	color:#555;
+	font-family: "Futura-Light", sans-serif;
+	font-size:52px;
+	padding: 30px 0px 0px 0px;
+}
+
+.title_line {
+    border-bottom: 1px solid #D5D5D5;
+    display: block;
+    height: 1px;
+    margin: auto;
+    margin-top:20px;
+    width: 90px;
+}
+
+
+/****************************** Main Content Setup *******************************/
+.homecontent {
+
+}
+
+/****************************** Whole Footer Setup *******************************/
+
+footer {
+	background: #ffdfb2;
+	padding: 70px 0;
+	height: 100%;
+}
+
+/******** Footer Containers ********/
+.footwrap {
+	width: 100%;
+	max-width: 840px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+.motto {
+	display: inline-block;
+	width: 280px;
+	height: 195px;
+	background: transparent;
+	margin-right: 20px;
+}
+
+.social {
+	display: inline-block;
+	width: 220px;
+	height: 32px;
+}
+	.fb {
+		display: inline-block;
+		height: 32px;
+		width: 32px;
+		background: url('img/social/facebook.png');
+		margin-right: 10px;
+	}
+	
+	.twitter {
+		display: inline-block;
+		height: 32px;
+		width: 32px;
+		background: url('img/social/twitter-2.png');
+		margin-left: 10px;
+	}
+	
+.evenfoot {
+	display: inline-block;
+	width: 240px;
+	height: 260px;
+	background: transparent;
+	vertical-align: top;
+}
+
+	.evenfoot ul {
+		padding: 0;
+	}
+	.evenfoot li {
+		margin: 0;
+		list-style: none;
+	}
+	
+/******** Footer Typography ********/
+
+
+.motto h5 {
+	font-size: 20px;
+	font-weight: 100;
+	color: #2a3411;
+	text-align: left;
+}
+
+	.bigred {
+		color: #6b0015;
+	}
+
+.evenfoot h3 {
+	font-size: 22px;
+	font-family: "Futura-Light", sans-serif;
+	color: #2a3411;
+	text-align: left;
+	border-bottom: 2px solid #2a3411;
+	padding-bottom: 5px;
+	text-shadow: 1px 0px 0px rgba(198, 193, 159, 0.49);
+}
+
+.evenfoot h6 {
+	color: #2a3411;
+	font-family: "Futura-Book", sans-serif;
+	font-size: 16px;
+	margin-top: 12px;
+	text-align: left;
+	float: left;
+	text-shadow: 1px 0px 0px rgba(198, 193, 159, 0.49);
+}
+
+	.address {
+	  display: block;
+		font-size: 14px;
+		font-weight: 100;
+		line-height: 17px;
+		color: #2a3411;
+		text-align: left;
+		margin-top: 5px;
+		margin-bottom: 20px;
+		text-shadow: 1px 0px 0px rgba(198, 193, 159, 0.49);
+	}
+	
+.titlecontact {
+	font-family: "Futura-Book", sans-serif;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	color: #2a3411;
+	text-align: left;
+	margin: 0;
+	text-shadow: 1px 0px 0px rgba(198, 193, 159, 0.49);
+}
+
+	.contact a {
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 100;
+		color: #2a3411;
+		margin: 0;
+		letter-spacing: 1px;
+	}
+	
+	.contact p {
+		display: inline;
+		margin: 0;
+		text-shadow: 1px 0px 0px rgba(198, 193, 159, 0.49);
+	}
+
+.dayhour {
+	text-align: right;
+	color: #2a3411;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: 100;
+	margin: 12px 0;
+}
+	.footline {
+		height: 1px;
+		width: 100%;
+		background: #C6C19F;
+		border: none;
+		clear: both;
+	}
+
+																																#leftmost a {
+																																	margin-left: 0px;
+																																}
+
+
+																																	#main_button a {
+																																		position: absolute;
+																																		width: 80px;
+																																		height: 80px;
+																																		bottom: 5%;
+																																		left: 50%;
+																																		margin-left: -40px;
+																																		background: url('#');/* button */
+																																		background-position: 0px -80px;
+																																		-webkit-transition: all 1s ease-in-out;
+																																		-ms-transition: all 1s ease-in-out;
+																																		-o-transition: all 1s ease-in-out;
+																																		transition: all 1s ease-in-out;
+																																	}
+																																	
+																																	a, a:hover {
+																																			text-decoration: none;
+																																	}
